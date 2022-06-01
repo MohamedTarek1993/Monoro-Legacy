@@ -259,14 +259,17 @@ ul {
 .navbar-nav {
   justify-content: center;
 }
-
+.navbar .navbar-nav .nav-link {
+  padding-right: 0.9rem;
+  padding-left: 0.9rem;
+}
 .navbar a {
   font-size: 18px;
   text-align: center;
-  font-family: "meduim";
+  font-family: "bold";
   color: var(--color-secound);
   transition: 0.25s all;
-  padding-left: 16px !important;
+  padding-left: 16px ;
 }
 .navbar a:hover {
   color: var(--color-primary);
@@ -349,7 +352,7 @@ ul {
 .navbar .join-us {
   display: flex;
   justify-content: flex-end;
-  width: 35%;
+  width: 22%;
 }
 .navbar .join-us a {
   border: 1px solid var(--color-primary);
